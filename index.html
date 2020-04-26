@@ -1,16 +1,17 @@
-
-
 <!DOCTYPE html>
+
 <html lang="en">
 
-<head>
-  <title>AAE 720 - Quantitative and Applied Economics Seminar (Spring 2019)</title>
 
+<head>
+  <title>DataSci W207: Applied Machine Learning (Summer 2020)</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./style.css">
 </head>
+
+
 
 <div class="container">
   <div class="navbar navbar-default" role="navigation">
@@ -22,8 +23,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">AAE 720>
+        <a class="navbar-brand" href="#">W207</a>
       </div>
+
+
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
@@ -33,89 +36,115 @@
               <li><a href="#description">Description</a></li>
               <li><a href="#announcements">Announcements</a></li>
               <li><a href="#logistics">Class Logistics</a></li>
-              <li><a href="#lecture">Lecture Plan</a></li>
+              <li><a href="#lecture">Live Session Plan</a></li>
               <li><a href="#grading">Grading</a></li>
               <li class="divider"></li>
               <li><a href="#staff">Staff</a></li>
-              <li class="divider"></li>
-              <li><a href="#honor-code">Honor Code</a></li>              
+              <li class="divider"></li>    
             </ul>
+		  
           </li>
-          <li><a href="#office-hours">Office Hours</a></li>    
-	  <li><a href="https://canvas.wisc.edu/courses/145093">Canvas</a></li>
+          <li><a href="#project-submissions">Project Submission Guidelines</a></li>    
+	  <li><a href="https://learn.datascience.berkeley.edu/">iSchool Virtual Campus</a></li>
         </ul>
+	      
       </div>
     </div>
   </div>
 
+	
 <div class="jumbotron">
-<h1>AAE720 Quantitative and Applied Economics Seminar</h1>
-<h3>Lectures: TH 103 on Mo 4:00 - 5:00pm</h3>
+<h1>DataSci W207: </br>
+    Applied Machine Learning</h1>
+<h3> Session 5: Tu, 6:30-8:00pm PT</h3>
+<h3> Session 6: Th, 6:30-8:00pm PT</h3>
+<h3>Office hours: Wed, 6:30-7:30pm PT</h3>	
 </div>
 
 <div class="panel panel-default">
   <div class="panel-heading">Description</div>
   <div class="panel-body">
     <a name="description"></a>
-<p>The course consists of presentations from industry professionals and academics on various topics related to the field
-  of quantitative and applied economics. Students will also be introduced to effective presentation skills.
-</p>
-
-<p> This class meets for 60 minutes each week over the spring semester. Students will work on course learning activities for about 3 hours out of classroom for every class period. 
-</p>
-    <p> There will be one case study presentation.</p>
+	<p>The goal of this course is to provide a broad introduction to the key ideas in machine learning.
+	The emphasis will be on intuition and practical examples rather than theoretical results. Through a
+	variety of lecture examples and programming projects, students will learn how to apply powerful
+	machine-learning techniques to new problems, how to run evaluations and interpret results, and
+	how to think about scaling up from thousands of data points to billions.
+	  </p>
+	<p> This class meets for one 90 min class periods each week. 
+	It includes three guided programming projects and one more open-ended final project.
+	  </p>
+	<p> All materials in this course are posted on GitHub in the form of Jupyter notebooks.
+	  </p>
+	  
   </div>
 </div>
+
 
 <div class="panel panel-default">
   <div class="panel-heading">Announcements</div>
   <div class="panel-body">
     <a name="announcements"></a>
     <ul>
-      <li> 
-      <li> 
+      <li> <We WILL NOT be using the iSchool Virtual Campus for communication. We will be using it only for assignment submissions.>
       </li>
     </ul>
 
   </div>
 </div>
 
+	
 <div class="panel panel-default">
   <div class="panel-heading">Class Logistics</div>
   <div class="panel-body">
 	  <a name="logistics"></a>
 	  <p> <b>Course Prerequisites</b>
 	  <ul>
-		<li><p>Students are strongly encouraged to have knowledge of econometrics and microeconomic theory.</p></li>
+		<li><p>Core data science courses: research design, storing and retrieving data, exploring and analyzing data.</p></li>
+		<li><p>Undergraduate-level probability and statistics. Linear algebra is recommended.</li>
 	  </ul>
 	  </p>
-	  <p> <b>Learning outcomes</b>
+	
+	  <p> <b> Programming Prerequisites</b>
 	  <ul>
-    <li><p>Gain an understanding of current industry topics.</p>
-    <li><p>Master the vocabulary relevant to the topic, understand the economic context for the issue, and pros/cons associated with potential solutions.</p>
-    <li><p>Develop professional presentation skills through case study presentation.</p>  	    
-    
-    </li>
+		  <li><p>Python (v3). We will be primarly using <a href="https://numpy.org/">numpy</a> and <a href="https://scikit-learn.org/stable/">scikit-learn</a>.</p>
+		<li><p>Jupiter and JupiterLab notebooks. You can install them in your computer using <a href="https://pypi.org/project/pip/">pip</a> or <a href="https://www.anaconda.com/">Anaconda</a>. More information <a href="https://jupyter.org/install">here</a>.</p>	    
+	  	<li><p>Git(Hub), including clone/commmit/push from the command line. You can sign up for an account <a href="https://github.com/join">here.</a></p>
+	  </ul>	  
+	  <p> <b>OS</b>
+	  <ul>
+    		 <li><p> Mac/Windows/Linux are all acceptable to use.</p>  	    
+   		 </li>
 	  </ul>
 	  </p>
+	
 	  <p><b>Textbook</b>
 	  	<ul>
-		<li>The recommended e-book for the course is <a href="https://www.amazon.com/Handbook-Marketing-Analytics-Applications-Management/dp/178471674X">Handbook of Marketing Analytics</a>, 
-        Natalie Mizik, Dominique M. Hanssens. Edward Elgar Publishing; March 2018.</li>
+		<li>Check readings posted on the iSchool Virtual Platform.</li>
 		</li>
 	  </ul>
 	  </p>
+
 	  <p><b>Assignments</b>
 	    <ul>
-   	<li> </li>     
+		<li>The three guided programming projects are due before class starts on week 5 (June 1), week 9 (June 29), week 13 (July 20).</li> 
+		<li> Code submmited via GitHub (see notes below).</li>   
+	    </ul>
+	  </p>
+
+	  <p><b>Final Project</b>
+	    <ul>
+		<li> You are allowed to work in teams. You will present your final project in class during the final session. The presentation time should not exeed 15-20 min.</li>
+		    <li> Code submmited via GitHub (see notes below).</li>
 	    </ul>
 	  </p>
    </div>
    </div>
 
+
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h2 class="panel-title">Lecture Plan</h2>
+    <h2 class="panel-title">Live Session Plan</h2>
   </div>
   <div class="panel-body">
     <a name="lecture"></a>
@@ -125,266 +154,307 @@
 <table class="plan">
   <tbody>
     <tr>
-      <th>Date</th>
-      <th>zyBook Chapter</th>
+      <th>Week</th>
+      <th>Lecture</th>
       <th>Lecture Materials</th>
-      <th><i>Friday Deadlines (11:59 pm)</th>
-      <th><i>Sunday Deadlines (11:59 pm)</th>
+      <th><i>Deadlines (6:30 pm PT)</th>
     </tr>
     <tr>
-      <td align="center" colspan="5" class="small-section-header">Fundamentals of OOP</td>
+      <td align="center" colspan="4" class="small-section-header">Supervised Learning</td>
     </tr>
-    
+	  
     <tr>
-      <td>7/2 
+      <td>05/04 - 05/10 
       </td>
-      <td>Ch 1: Introduction to Python<br>
-          Ch 2: Variables and Expressions<br>
-          Ch 3: Types<br>
-          Ch 4: Branching
+      <td>Introduction
       </td>
-      
+	    
+      <td class="side-borders"> 
+      <a href="./live-sessions/week1/">Week 1</a>
+      </td>   
+	    
+      <td> 
+      </td>   
+    </tr>
+
+    <tr>
+      <td>05/11 - 05/17
+      </td>
+      <td>Nearest neighbors
+      </td>
+
       <td class="side-borders">
-      Intro <a href="./lectures/Intro.pdf">(pdf)</a><br>     
-      Week 1 <a href="./lectures/Week1.pdf">(pdf)</a>
-      </td>      
-      
-      <td class="side-borders">Ch 1, 2, 3, 4 participation (due on 7/2)
+      <a href="./live-sessions/week2/">Week 2</a>
+      </td>
+
+      <td> 
+      </td> 	    
+    </tr>
+
+    <tr>
+      <td>05/18 - 05/24 
+      </td>
+      <td>Naive Bayes
+      </td>
+
+      <td class="side-borders">   
+      <a href="./live-sessions/week3/">Week 3</a><br>
       </td> 
+
+      <td> 
+      </td>     
+    </tr>
+
+    <tr>
+      <td>05/25 - 05/31
+      </td>
+      <td>Decission trees
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week4/">Week 4</a><br>
+      </td>
+
+      <td> 
+      </td>     
+    </tr>
+
+     <tr>
+      <td>06/01 - 06/07
+      </td>
+      <td>Regression
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week5/">Week 5</a><br>
+      </td>      
+      <td><a href="./projects/firstname_lastname_p1.ipynb">Project 1</a><br>
+      </td> 
+    </tr>
+
+    <tr>
+      <td>06/08 - 06/14
+      </td>
+      <td>More linear models
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week6/">Week 6</a><br>
+      </td>
+	    
+       <td> Final project: group and dataset</a><br>
+      </td> 
+    </tr>
+
+   <tr>
+      <td>06/15 - 06/21
+      </td>
+      <td>Neural networks
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week7/">Week 7</a><br>
+      </td>  
+
+      <td> 
+      </td> 
+    </tr>
+
+   <tr>
+      <td>06/22 - 06/28
+      </td>
+      <td>SVMs
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week8/">Week 8</a><br>
+      </td> 
+
+      <td> 
+      </td> 
+    </tr>
+
+    <tr>
+      <td align="center" colspan="4" class="small-section-header">Unsupervised Learning</td>
+    </tr>
+
+    <tr>
+      <td>06/29 - 07/05
+      </td>
+      <td>Cluster analysis
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week9/">Week 9</a><br>
+      </td>      
+	    
+      <td><a href="./projects/firstname_lastname_p2.ipynb">Project 2</a><br>
+      </td> 
+    </tr>
+
+   <tr>
+      <td>07/06 - 07/12
+      </td>
+      <td>Expectation maximization
+      </td>
+	   
+      <td class="side-borders">
+      <a href="./live-sessions/week10/">Week 10</a><br>
+      </td>      
+
+       <td>Final project: baseline presentation</a><br>
+      </td> 
+    </tr>
+
+   <tr>
+      <td>07/13 - 07/19
+      </td>
+      <td>Dimensionality reduction
+      </td>
+ 
+      <td class="side-borders">
+      <a href="./live-sessions/week11/">Week 11</a><br>
+      </td>      
+
+      <td>
+      </td> 
+    </tr>
+	
+    <tr>
+      <td align="center" colspan="4" class="small-section-header">Other topics</td>
+    </tr>	  
+	
+   <tr>
+      <td>07/20 - 07/26
+      </td>
+      <td>Network analysis
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week12/">Week 12</a><br>
+      </td>      
+
       <td>
       </td> 
     </tr>
 
     <tr>
-      <td>7/9 <br> 
-          7/11
+      <td>07/27 - 08/02
       </td>
-      <td>Ch 5: Loops<br>
-          Ch 6: Functions<br>
-          Ch 7: Strings
+      <td>Recommender systems
       </td>
-      
+
       <td class="side-borders">
-      Week 2 (pdf)
+      <a href="./live-sessions/week13/">Week 13</a><br>
       </td>      
-      
-      <td class="side-borders"> Ch 1, 2, 3, 4 challenge (due on 7/7)<br>
-                                Ch 5, 6, 7 participation (due on 7/7)
+
+      <td><a href="./projects/firstname_lastname_p3.ipynb">Project 3</a><br>
       </td> 
-         
-      <td> Ch 1, 2, 3, 4 zyLabs (due on 7/12)
-      </td>       
     </tr>
 
-    <tr>
-      <td>7/16 <br> 
-          7/18
-      </td>
-      <td>Ch 8: Classes<br>
-          Ch 9: Exceptions<br>
-          Ch 10: Modules
-      </td>
-      
-      <td class="side-borders">
-      Week 3 (pdf)
-      </td>      
-      
-      <td class="side-borders">Ch 5, 6, 7 challenge (due on 7/14)<br>
-                               Ch 8, 9, 10 participation (due on 7/14)
-      </td> 
-      
-      <td>Ch 5, 6, 7 zyLabs (due on 7/19)
-      </td>       
-    </tr>
-    
-    
-    <tr>
-      <td>7/23 <br> 
-          7/25
-      </td>
-      <td>Ch 11: Lists and Dictionaries<br>
-          Ch 12: IO Files<br>
-          Ch 13: Plotting
-      </td>
-      
-      <td class="side-borders">
-      Week 4 (pdf)
-      </td>      
-      
-      <td class="side-borders">Ch 8 challenge (due on 7/21)<br>
-                               Ch 11, 12, 13 participation (due on 7/21)
-      </td> 
-      
-      <td>Ch 8, 9, 10 zyLabs (due on 7/26)
-      </td>       
-    </tr>
-   
+ <tr>
 
-    <tr>
-      <td align="center" colspan="5" class="small-section-header">Data Analytics</td>
+      <td>08/03 - 08/09
+      </td>
+      <td>Wrap-up
+      </td>
+
+      <td class="side-borders">
+      <a href="./live-sessions/week13/">Week 14</a><br>
+      </td>      
+
+      <td>Final project: code and presentation</a><br>
+      </td> 
     </tr>
 
-     <tr>
-      <td>7/30 <br> 
-          8/01
-      </td>
-      <td>Ch 14: Data Visualization<br>
-          Other topics
-      </td>
-      
-      <td class="side-borders">
-      Week 5 (pdf)
-      </td>      
-      
-      <td class="side-borders">Ch 13 challenge (due on 7/28)<br>
-                               Ch 14, 15, 16 participation (due on 7/28)
-      </td> 
-      
-      <td>Ch 11, 12, 13 zyLabs (due on 8/2)
-      </td>       
-    </tr>
-    
-    <tr>
-      <td>8/6<br>
-	  8/8
-      </td>
-      <td>Ch 15: Descriptive Statistics<br>
-          Ch 16: Linear Regression<br>
-          Other topics
-      </td>
-      
-      <td class="side-borders">
-      Week 6 (pdf)
-      </td>          
-      
-      <td class="side-borders"> 
-      </td> 
-      
-      <td>Final Program (FP) (due on 8/9)
-      </td>       
-    </tr>
   </tbody>
 </table>
-
 </p>
 </div>
 </div> 
 
+
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h2 class="panel-title">Labs</h2>
+    <h2 class="panel-title">Communication channel</h2>
   </div>
   <div class="panel-body">
     <a name="lab"></a>
-    <p>
+    <p> We will use Slack to communicate throughout the semester. Questions/comments related to your projects (NO CODE) are strongly encouraged. 
     <hr /> 
 
 <table class="plan">
   <tbody>
     <tr>
-      <th>Date</th>
-      <th>Lab Materials</th>
-      <th>Lab Readings</th>
+      <th>Section</th>
+      <th>Slack channel</th>
     </tr>
-    
+
     <tr>
-      <td align="center" colspan="3" class="small-section-header"></td>
+      <td align="center" colspan="2" class="small-section-header"></td>
     </tr>
-	  
+
     <tr>
-      <td>7/10 
+      <td> 5 
       </td>
-      <td class="side-borders">
-      Lab 1 (pdf)
-      </td>      
       <td>
-      </td> 
+      #w207-5  
+      </td>         
     </tr>
-	  
+
     <tr>	  
-      <td>7/17 
+      <td>6
       </td>
-      <td class="side-borders">
-      Lab 2 (pdf)
-      </td>     
       <td>
-      </td> 
-    </tr>
-	  
-    <tr>  
-      <td>7/24 
-      </td>
-      <td class="side-borders">
-      Lab 3 (pdf)
+	#w207-6
       </td>     
-      <td>
-      </td> 	    
-    </tr>
-	
-    <tr>	  
-      <td>7/31 
-      </td>
-      <td class="side-borders">
-      Lab 4 (pdf)
-      </td>     
-      <td>
-      </td> 	    
-    </tr>
-	  
-    <tr>	  
-      <td>8/7 
-      </td>
-      <td class="side-borders">
-      Lab 5 (pdf)
-      </td>     
-      <td>
-      </td> 	    
     </tr>
   </tbody>
 </table>
-
 </p>
 </div>
 </div> 
 
+
 <div class="panel panel-default">
-  <div class="panel-heading">Exam 1</div>
+  <div class="panel-heading">Final Project</div>
   <div class="panel-body">
-    The first exam will be on <b>July 19th from 10:00 - 12:00pm</b> in TH 113.
-    
+    <p> For the final project you will form a group (3-4 people are ideal; 2-5 people are allowed; no 1 person group allowed (DON'T ASK).</p>
+    <p> Your group can only include members from the section in which you are enrolled.</p>	  
+    <p> You will pick your own dataset, but I will also provide some suggestions.</p>
+    <p> Deadlines to remember: 
+	    <li><p> week 06/08 - 06/14: inform me about your group and the dataset you plan to use. </li>
+	    <li><p> week 07/06 - 07/12: prepare a baseline presentation of your project. You will present in class (no more than 10 min). </li>
+	    <li><p> week 08/03 - 08/09: code submission and final presentation in class (no more than 15-20 min).</li>
+	  </p>	 
   </div>
 </div>
 
+
 <div class="panel panel-default">
-  <div class="panel-heading">Exam 2</div>
+  <div class="panel-heading">Project Submissions Guidelines</div>
   <div class="panel-body">
-    The final exam will be on <b> August 12th from 10:00 - 12:00pm</b> in TH 113.
-  </div>
+    <a name="project-submissions"></a>
+    <p><<add here>></p>
 </div>
+</div>
+
 
 <div class="panel panel-default">
   <div class="panel-heading">Grading</div>
   <div class="panel-body">
     <a name="grading"></a>
     <table class="table">      
-      <tr><td>Participation</td><td>zyBooks participation (5%), topHat (5%), zyBooks challenge (5%), teamLabs (5%)</td>      
-      <tr><td>zyLabs and Final Program (FP)</td><td>40%, each counting for 20%</td>
-      <tr><td>Exam 1 and Exam 2</td><td>40%. Exams are cummulative. Exam 1 is 20% and Exam 2 is 20% or Exam 2 is 40%, whichever is higher</td>
-      <p>Final grades will be determined by computing the weighted average of Participation, zyLabs, 
-	      Final Program (FP), Exam 1 and Exam 2. Final letter grades may be curved upward, but a minimum guarantee is made of an A for 93 or above,
-	      AB for 87 or above, B for 80 or above, BC for 75 or above, C for 70 or above, and D for 60 or above.</p>
+      <tr><td>Participation</td><td>5%</td>      
+      <tr><td>Programming projects</td><td>20% (x3)</td>
+      <tr><td>Final project</td><td>35%</td>
+      <p>Final grades will be determined by computing the weighted average of programming projects, 
+	      final group project, and participation.</p>
+	<p> Baseline grading range for this course is: A for 93 or above,
+	     A- for 90 or above, B+ for 87 or above, B for 83 or above, B- for 80 or above, C+ for 77 or above, C for 73 or above,
+	     C- for 70 and above, D+ for 67 and above, D for 63 and above, D- for 60 and above, and F for 59 and below.</p>
   </table>    
   </div>
-</div>
-
-<div class="panel panel-default">
-  <div class="panel-heading">Office Hours</div>
-  <div class="panel-body">
-    <a name="office-hours"></a>
-    <p>Cornelia: Tu, Th from 1 - 2:00 pm, or by appointment</p>
-    <p>Adam: Wed, from 12 - 1:45 pm, or by appointment</p>
- 
-</div>
 </div>
 
 <div class="panel panel-default">
@@ -396,47 +466,22 @@
         <tr><th></th><th></th></tr>
       </thead>
       <tbody>
-        <tr><td width = 4%><img src="./pictures/cornelia.jpg" style="height:62"></td><td><a href="http://corneliailin.github.io">Cornelia Ilin</a> (cilin@wisc.edu)</td></tr>
-        <tr><td width="4%"><img src="./pictures/adam.jpg" style="height:62"></td><td><a href="https://aae.wisc.edu/grad-students/theising/">Adam Theising</a> (theising@wisc.edu)</td></tr>
+        <tr><td width = 4%><img src="./pictures/cornelia.jpg" style="height:62"></td><td><a href="http://corneliailin.github.io">Cornelia Ilin</a> (cilin@ischool.berkeley.edu)</td></tr>
       </tbody>
     </table>
   </div>
 </div>
 
+
 <div class="panel panel-default">
   <div class="panel-heading">Late Policy</div>
   <div class="panel-body">
   <a name="late-policy"></a>
-You are allowed to use <b>24 hours</b> throughout the semester to account for late assignment submissions.
+Late submissions will be accepted up to 1 week past the deadline with a 10% penalty, but you need to let me know if you will be submitting late.
   </div>
-</div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">Honor Code and Collaboration Policy</div>
-  <div class="panel-body">
-<a name="honor-code"></a>
-<p>
-You can discuss assignments with your colleagues but you must write your own solutions!	
-</p>
-<p>
-If you choose to discuss code make sure to <b>cite all the people</b> who helped with the assignment (no need to cite TA and Instructor).
-</p>	
-<p>Failure to do so will be considered a violation of the <a href="https://conduct.students.wisc.edu/academic-integrity/">University of Wisconsin Honor Code</a>.
-</p>
-
-  </div>
 </div>
-
-	
-<div class="panel panel-default">
-  <div class="panel-heading">Credit</div>
-  <div class="panel-body">  
-The template of this website was adapted from TheoRekatsinas@UW and created by HazyReseach@Stanford.
-  </div>
 </div>
-	
 </div>
 </body>
-
 </html>
-
